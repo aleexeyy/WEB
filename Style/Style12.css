@@ -1,0 +1,30 @@
+* {
+   margin:0;
+}
+a { 
+   text-decoration: none;
+}
+ul {
+   height: 300px;
+   width: 300px;
+   background-color: green;
+}
+.list {
+   width: 200px;
+   background-color: #fff;
+   color: black;
+   list-style-type: none;
+   border-radius: 10%;
+}
+.check {
+   top: 5px;
+}
+.changecolor {
+   text-decoration: line-through;
+   color:red;
+}
+.button {
+   /* float:left; */
+   width: 10px;
+   height: 20px;
+}
