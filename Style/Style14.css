@@ -1,0 +1,85 @@
+
+img {
+   width: 250px;
+   height: 200px;
+   margin-bottom: 20px;
+}
+.item { 
+   border: 1px black solid;
+   width: 325px;
+   height: 350px;
+   display:flex;
+   flex-direction: column;
+   margin:0;
+}
+button {
+   width: 100px;
+   height: 50px;
+}
+
+#buybtn {
+   background-color: rgb(51, 48, 207);
+   color: #fff;
+}
+
+#closebtn {
+   background-color: rgb(185, 23, 18);
+   color: #fff;
+}
+
+.confirmwindow {
+   margin: 0 auto;
+   width: 500px;
+   height: 250px;
+   border: black 1px solid;
+   margin: 0 auto;
+   background-color: #fff;
+}
+.choisediv {
+   display:flex;
+   justify-content: space-around;
+}
+h1 {
+   text-align: center;
+}
+.bin {
+   position: fixed;
+   top:0;
+   left: 80%;
+}
+.hideelement {
+   visibility: hidden;
+}
+.test {
+   position: fixed;
+   border: 1px solid black;
+   top: 50px;
+   left: 80%;
+   height: 300px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.test li {
+   margin-bottom: 10px;
+}
+li {
+   list-style-type: none;
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.clearbin {
+   position: fixed;
+   top:0;
+   left: 87.8%;
+}
