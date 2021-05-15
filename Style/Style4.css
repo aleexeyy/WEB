@@ -1,88 +1,492 @@
 .header {
-          width: 100%;
-          height: 750px;
-          background-image: url(../images/desk.png);
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/desk.png);
 
 }
 .headercover {
-          width: 100%;
-          height: 750px;
-          position: relative;
-          z-index: 1;
-          background-color: rgb(11, 11, 90);
-          opacity: 0.6;
-          display: flex;
-          flex-direction: row;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(11, 11, 90);
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
 }
 span {
-          font-size: 40px;
-          color: white;
+    font-size: 40px;
+    color: white;
 }
 .container {
-          width: 1170px;
-          margin: 0 auto;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .header-top {
-          width: 100%;
-          height: 100px;
-          border-bottom: 1px solid white;
-          display:flex;
-          justify-content: space-between;
-          align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-main {
-          width: 100%;
-          height: 650px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 ul {
-          width: 500px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          list-style-type: none;
-          color:white;
-          font-size: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color:white;
+    font-size: 20px;
 }
 .headerh1 {
-          width: 870px;
-          font-size: 50px;
-          color: white;    
-          margin: 0;   
-          text-align: center;
+    width: 870px;
+    font-size: 50px;
+    color: white;    
+    margin: 0;   
+    text-align: center;
 }
 .headerp {
-          color:white;
-          width: 1000px;
-          font-size: 22px;
-          text-align: center;
+    color:white;
+    width: 1000px;
+    font-size: 22px;
+    text-align: center;
 }
-a {
-          margin-top: 50px;
-          padding: 20px 40px;
-          background-color: red;
-          color: white;
-          text-decoration: none;
+.button {
+    margin-top: 50px;
+    padding: 20px 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
 .headerleft {
-          height: 20px;
-          width: 375px; 
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          padding-top: 15px;
+    height: 20px;
+    width: 375px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 15px;
 }
 .nav {
-          background-color:white;
-          width: 100%;
-          height: 1000px;
+        background-color:white;
+        width: 100%;
+        height: 2850px;
 }
-.navcontainer {
-          width: 1170px;
-          height: 600px;
-          margin: 0 auto;
+.navcontainer1 {
+    width: 1170px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.feature {
+    height: 300px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featureimg{
+    margin-bottom: 1px;
+}
+.featuretext {
+    margin-top:1px;
+    width: 300px;
+    text-align: center;
+}
+.navcontainer2 {
+    width: 1564;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.works {
+    height: 300px;
+    width: 391px;
+
+}
+.workimg {
+    width: 391px;
+    height: 300px;
+    z-index: 0;
+}
+.projectname {
+    color:white;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+.par {
+    top:-215px;
+    font-size: 16px;
+}
+.proj {
+    top : -200px;
+    font-size: 18px;
+}
+.navcontainer3 {
+    padding-top: 100px;
+    margin:0 auto;
+    width: 1170px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+}
+.navteam {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team {
+    width: 292px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.names {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    color: black;
+    font-weight: lighter;
+    
+}
+.role {
+    color:red;
+    font-size: 15px;
+}
+.inform {
+    color: rgb(68, 67, 67);
+    margin-top: 10px;
+    width: 247px;
+    font-size: 17px;
+}
+.social {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.socialperson {
+    width: 292px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.sites {
+    width: 45px;
+    height: 45px;
+    border:solid 1px rgb(114, 113, 113, 0.2);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider .first {
+    width: 100%;
+    height: 400px; 
+    display:flex;
+    flex-direction: row;
+
+}
+.client {
+    margin-left: -8px;
+    height: 100%;
+    width: 800px;
+}
+.clientphrase {
+    height: 350px;
+    width: 750px;
+    background-color: rgb(97, 11, 97);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-top: 50px;
+    position: relative;
+    top:-400px;
+    left:792px;
+
+}
+.clientimg {
+    height: 400px;
+    width: 100%;
+}
+.clienttext {
+    font-size: 33px;
+    width: 800px;
+}
+.undertext {
+    width: 520px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    top: 220px;
+    left: -445px;
+}
+.pointscontainer {
+    width: 100%;
+    height: 30px;
+    display:flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: flex-end;
+}
+.ellipse {
+    width: 15.18px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 40px;
+    /* opacity: 0.4; */
+    position:relative;
+    left:30px;
+}
+/* .el1 {
+    left:-820px;
+} */
+/* .el2 {
+    left:-730px;
+} */
+/* .el3 {
+    left: -523px;
+}
+.el4 {
+    left:-503px;
+} */
+.navcontainer5 {
+    width: 100%;
+    height: 350px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.download {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: lighter;
+    
+}
+.downloadtext {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    top:-30px;
+}
+.downloadbutton {
+    padding: 15px 75px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer {
+    width: 1450px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+.footercontainer1 {
+    width: 100%;
+    height: 200px;
+    background-color: #3a3e64;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footercontainer2 {
+    width: 100%;
+    height: 75px;
+    background-color: #313454;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.informaition {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+}
+.location {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.socialmedia {
+    height: 100%;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+
+}
+.about {
+    height: 100%;
+    width: 567px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.Location {
+    margin-top: 70px;
+    color: white;
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight: 700;
+    position:relative;
+    left: -190px;
+}
+.adress {
+    margin-top:-6px;
+    color:grey;
+    width: 150px;
+    text-align: center;
+    position:relative;
+    left: -150px;
+}
+.share {
+    margin-top: 70px;
+    color: white;
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight: 700;
+}
+.socialshare {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.frame {
+    width: 35px;
+    height: 35px;
+    border:solid 2px white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footershare {
+    width: 100%;
+    height: 90px;
+    position:relative;
+    left:60px;
+}
+.aboutactivebox {
+    margin-top: 70px;
+    color: white;
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight: 700;
+    position:relative;
+    left:150px;
+}
+.inform1 {
+    margin-top:-6px;
+    color:grey;
+    width: 320px;
+    text-align: center;
+    position:relative;
+    left:40px;
+}
+.copyright {
+    color:grey;
+    width: 330px;
+    text-align:center;
+}
+.endsite {
+    width: 100%;
+    height: 150px;
+}
+
+
+.slider{
+    max-width: 100%;
+    /* The position of the element is set relative to its original position: */
+    position: relative;
+    /* Center horizontally: */
+    margin: auto;
+    height: 400px;
+}
+/* The picture is scaled in relation to the parent element: */
+.slider .item  {
+    /* The element is resized to fill the block and maintain proportions: */
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+
+}
+.slider .second {
+	background-color: blue;
+}
+.slider .third {
+	background-color: green;
+}
+/* Back and forward buttons: */
+.slider .previous, .slider .next {
+    /* Adds an icon to the cursor when it is over the button: */
+    cursor: pointer;
+    /* The position of the element is set relative to the borders of the browser: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Styling the buttons themselves: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Background fading on hover: */
+    transition: 0.6s ease;
+    /* Rounding the borders: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* When you hover over the buttons, add the background of the buttons: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Slide animation: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Set and change the transparency: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
 }
